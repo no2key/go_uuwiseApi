@@ -142,7 +142,7 @@ func (u *uuApi) initHeaders() {
 	chttp.WithHeader("UUVersion", UU_VERSION)
 	chttp.WithHeader("UID", u.uid)
 	chttp.WithHeader("KEY", gkey)
-	chttp.WithOption(httpclient.OPT_PROXY, "127.0.0.1:8888")
+	//chttp.WithOption(httpclient.OPT_PROXY, "127.0.0.1:8888")
 }
 
 /*
